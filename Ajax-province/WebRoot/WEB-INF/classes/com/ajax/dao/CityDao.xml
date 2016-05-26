@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ajax.dao.CityDao">
+
+	<!-- 查询所有 -->
+	<select id="getCityById" parameterType="int" resultType="city">
+		SELECT *
+		FROM city where proId = #{value}
+	</select>
+
+
+
+</mapper>
