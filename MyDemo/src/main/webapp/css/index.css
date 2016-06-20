@@ -1,0 +1,93 @@
+a {
+	text-decoration: none;
+}
+
+.easyui-validatebox {
+	background: transparent;
+	border-color: #e7e7e7;
+}
+
+.north-top {
+	width: 100%;
+}
+
+.top-title {
+	text-align: center;
+}
+
+.top-log-reg-box {
+	width: 80px;
+	margin-top: -10px;
+	margin-left: 80%;
+	font-size: 14px;
+}
+
+.top-login {
+	margin-right: 10px;
+	color: #222;
+}
+
+.top-register {
+	color: #222;
+}
+
+#login-content {
+	height: 160px;
+}
+
+.login-form {
+	height: 120px;
+	width: 216px;
+	margin: 20px auto;
+	width: 245px;
+	margin: 20px auto;
+}
+
+.login-form table tr {
+	line-height: 40px;
+	text-align: center;
+}
+
+.login-form table tr td {
+	font-size: 16px;
+}
+
+#subutton {
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+	margin-left: 16px;
+	margin-top: 13px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+/* 注册 */
+#reg-form table {
+	margin: 20px auto;
+}
+
+#reg-form #input-text {
+	width: 210px;
+}
+
+#reg-form table tr {
+	line-height: 20px;
+}
+
+#reg-form table tr td {
+	font-size: 16px;
+}
+
+#form-button {
+	text-align: center;
+}
+
+#reg-button {
+	font-size: 18px;
+	width: 100px;
+	margin-top: 14px;
+	height: 30px;
+	font-weight: 600;
+	cursor: pointer;
+}
